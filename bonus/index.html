@@ -12,14 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
-    <!-- Latest compiled and minified CSS Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- FAVICON -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
     <title>Spoti5</title>
 </head>
 
@@ -30,7 +27,7 @@
         <section class="nav_bar_mobile">
             <div class="nav_bar_mobile_icons">
                 <!-- LOGHI MOBILE -->
-                <img src="img/logo-small.svg" alt="Spotify Logo Mobile">
+                <img src="../img/logo-small.svg" alt="Spotify Logo Mobile">
                 <ul>
                     <a href="">
                         <li><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"/></svg>
@@ -61,7 +58,7 @@
         <section class="nav_bar_desktop">
             <div class="nav_bar_logo">
                 <!-- LOGO DESKTOP  -->
-                <img src="img/logo.svg" alt="Spotify Logo">
+                <img src="../img/logo.svg" alt="Spotify Logo">
             </div>
 
             <!-- MENU NAVBAR DESKTOP  -->
@@ -111,14 +108,12 @@
         </section>
         <!-- FINE NAVBAR DESKTOP  -->
 
+        <!-- UPGRADE BUTTON BAR  -->
+        <div class="upgrade">
+            <a href="">Upgrade del tuo piano</a>
+        </div>
         <!-- INIZIO MAIN CONTENT WINDOW  -->
         <section class="main_content">
-
-            <!-- UPGRADE BUTTON BAR  -->
-            <div class="upgrade">
-                <a href="">Upgrade del tuo piano</a>
-            </div>
-
             <!-- LISTA MOOD A SCELTA -->
             <div class="mood_list">
                 <ul>
@@ -152,149 +147,125 @@
 
             <!-- MAIN CONTENT WINDOW WRAPPER  -->
             <div class="main_content_wrapper">
+                <!-- INIZIO SEZIONE RECENTLY PLAYED -->
                 <h2>Recently Played</h2>
-
-                <!-- RECENTLY PLAYED SECTION  -->
-                <div class="container-fluid recently_played">
-                    <div class="row">
-
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                <div class="recently_played">
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
                     </div>
                 </div>
+                <!-- FINE RECENTLY PLAYED SECTION  -->
 
-                <!-- CREATA PER TE SECTION  -->
-                <h2>Creato per John Doe</h2>
+                <!-- INIZIO SEZIONE Scelti per te -->
+                <h2>Scelte per John Doe</h2>
                 <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
-                <div class="container-fluid recently_played">
-                    <div class="row">
-
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                <div class="choosen_for_you">
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
-
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_overlay"></div>
-                                <div class="album_button_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
-                        </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
                     </div>
-                </div>
 
-                <!-- ARTISTI POPOLARI SECTION  -->
+                    <div class="album_item">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
+
+                </div>
+                <!-- FINE SEZIONE Scelti per te  -->
+
+
+                <!-- INIZIO SEZIONE Scelti per te -->
                 <h2>Artisti più Popolari</h2>
                 <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
-                <div class="container-fluid recently_played">
-                    <div class="row">
-
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item_artist">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_artist_overlay"></div>
-                                <div class="album_button_artist_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
+                <div class="related_artists">
+                    <div class="album_item_artist">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
                         </div>
-
-                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                            <div class="album_item_artist">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="album_image_artist_overlay"></div>
-                                <div class="album_button_artist_overlay">
-                                    <i class="fas fa-play-circle"></i>
-                                </div>
-                            </div>
-                            <h2 class="album_title">Nome Disco</h2>
-                            <h3 class="album_artist">Nome Autori</h3>
-                        </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
                     </div>
+
+                    <div class="album_item_artist">
+                        <img src="../img/cure.jpeg" alt="">
+                        <div class="album_image_overlay"></div>
+                        <div class="album_button_overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h2 class="album_title">Nome Disco</h2>
+                        <h3 class="album_artist">Nome Autori</h3>
+                    </div>
+
                 </div>
+                <!-- FINE SEZIONE Scelti per te  -->
             </div>
             <!-- FINE MAIN CONTENT WINDOW WRAPPER  -->
         </section>
@@ -305,7 +276,7 @@
         <!-- FOOTER ITEM SONG -->
         <div class="footer_item_song">
             <div class="footer_song_cover">
-                <img src="img/sinister.jpeg" class="footer_cover" alt="">
+                <img src="../img/sinister.jpeg" class="footer_cover" alt="">
             </div>
             <div class="footer_song_title">
                 <h3>Sinister</h3>
